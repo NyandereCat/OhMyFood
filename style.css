@@ -162,6 +162,14 @@ align-items: flex-start;
 {
     padding-top:5%
 }
+.BordureRestos
+{
+   background-color: white;
+   width: 76%;
+   border-radius: 25px;
+   height: 300px;
+   box-shadow: 0px 5px 10px 5px lightgrey;
+}
 .FactorisationPhoto
 {
 background-size: cover;
