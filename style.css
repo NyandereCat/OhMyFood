@@ -147,10 +147,43 @@ align-items: flex-start;
     }
       .fonctionnement
       {
-        margin-right: 350px;
+        
         margin-bottom:20px;
       }
-      
+.MargeTitre
+{
+    margin-left: 5%;
+    margin-bottom:20px;
+    margin-top: 10%;
+    
+}
+ /*Restaurants*/
+.RestoTitre
+{
+    padding-top:5%
+}
+.FactorisationPhoto
+{
+background-size: cover;
+background-position: center;
+width: 455px;
+height: 200px;
+border-radius: 15px 15px 0 0;
+}
+.PaletteDuGoût
+{
+    background-image: url("./Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+ /*Footer*/
+ .BordureFooter
+ {
+    background-color:#353535;
+    width: auto;
+    height: 230px;
+  }
+ 
+
 @media screen and (max-width:600px)  {
 
     
