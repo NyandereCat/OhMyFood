@@ -1,0 +1,157 @@
+body
+{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Shrikhand', cursive;
+}
+/*MARGE*/
+.marge
+{
+    margin-left:10px;
+    margin-right:10px;
+}
+/*FLEXBOX*/
+.flexcenter
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexbetween
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexaround
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexstart
+{
+    display: flex;
+align-items: flex-start;
+}
+
+.columncenter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Header*/
+.ohmyfood{
+    box-shadow: 0px 5px 10px 5px lightgrey;
+}
+.logoohmyfood
+{
+    width: 186px;
+    height: 31px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.bordurelocalisation
+{
+    background-color:#f2f2f2;
+    width: auto;
+    height: 60px;
+    
+    
+}
+.parisbelleville
+{
+    margin-left: 20px;
+    color: #353535;
+    cursor: text;
+}
+.logocolor
+{
+    color: #353535;
+}
+.description
+{
+    text-align: center;
+    
+}
+.reservez
+{
+    font-size:24px;
+}
+.decouvrez
+{
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: -40px;
+    margin-bottom: 20px;
+  }
+
+  .borduredescription
+  {
+      background-color:#F6F6F6;
+      width: auto;
+      height: 400px;
+    }
+  .bordurebouton
+  {
+      background-image:linear-gradient(355deg, #9356DC, #FF79DA);
+      border-radius:25px;
+      height: 50px;
+      width: 250px;
+      cursor:pointer;
+  }   
+    .textebouton
+    {
+        color:white;
+        font-weight: bold;
+    } 
+  .bordurechiffre
+  {
+      background-color:#9356DC;
+      height: 30px;
+      width: 30px;
+      border-radius:30px;
+      color:white;
+      margin-left:-11px;
+      
+  }
+  
+  .bordurenav
+  {
+    background-color: #F6F6F6;
+    width: 349px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    height: 80px;
+    box-shadow: 0px 5px 10px 5px lightgrey;
+    cursor:pointer;
+
+  }
+  .textenav
+  {
+      margin-right:55px;
+  }
+
+  .pinkeffet:hover
+  {
+      background-color: #F5EDFF;
+      height: 80px;
+      width: 349px;
+      border-radius: 25px;
+    }
+      .fonctionnement
+      {
+        margin-right: 350px;
+        margin-bottom:20px;
+      }
+      
+@media screen and (max-width:600px)  {
+
+    
+}
