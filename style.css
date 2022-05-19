@@ -50,7 +50,10 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 }
-
+/*Effet*/
+.Effet:hover{
+    cursor:pointer;
+}
 /*Header*/
 .ohmyfood{
     box-shadow: 0px 5px 10px 5px lightgrey;
@@ -177,13 +180,14 @@ align-items: center;
    height: 300px;
    box-shadow: 0px 5px 10px 5px lightgrey;
    margin-bottom: 5%;
+   width: 76%;
 }
 .FactorisationPhoto
 {
 background-size: cover;
 background-position: center;
 width: 456px;
-height: 200px;
+height: 70%;
 border-radius: 15px 15px 0 0;
 }
 .PaletteDuGout
@@ -194,7 +198,7 @@ border-radius: 15px 15px 0 0;
 {
     background-image: url("./Images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg") ;
 }
-.Française
+.Francaise
 {
     background-image: url("./Images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg") ;
 }
@@ -203,7 +207,35 @@ border-radius: 15px 15px 0 0;
 {
     background-image: url("./Images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") ;
 }
+
+.MenuScript
+{
+    line-height: 0.4em;
+    font-size: 20px;
+    margin-left:2%;
+}
+.HeartSize
+{
+    margin-right:5%;
+}
+.Nouveau
+{
+color: #008766;
+background-color: #99E2D0;
+width: 100px;
+left: 349px;
+position: relative;
+top: 10px;
+height: 35px;
+box-shadow: 0px 1px 10px 1px lightgrey;
+font-weight:bold;
+border-radius:2px;
+}
  /*Footer*/
+ .TexteFooter
+ {
+     margin-top:0;
+ }
  .BordureFooter
  {
     background-color:#353535;
@@ -218,10 +250,10 @@ border-radius: 15px 15px 0 0;
   }
  .LogoBlanc
  {
-     color:white;
+     
      height: 20px;
      margin-top: 5%;
-margin-bottom: 2%;
+    margin-bottom: 2%;
  }
 .Proposer
 {
