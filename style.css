@@ -151,17 +151,13 @@ align-items: center;
       width: 349px;
       border-radius: 25px;
     }
-      .fonctionnement
-      {
-        
-        margin-bottom:20px;
-      }
+     
 .MargeTitre
 {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-bottom:20px;
     margin-top: 10%;
-    
+    font-size: 20px;
 }
  /*Restaurants*/
 .BordureGreyRestos
@@ -177,7 +173,6 @@ align-items: center;
 .BordureRestos
 {
    background-color: white;
-   width: 76%;
    border-radius: 25px;
    height: 300px;
    box-shadow: 0px 5px 10px 5px lightgrey;
