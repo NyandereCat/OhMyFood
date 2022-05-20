@@ -259,6 +259,51 @@ border-radius:2px;
 {
     margin-left:10px;
 }
+
+.Lien
+{
+    text-decoration:none;
+    color:white;
+}
+
+/*Header des menus*/
+.ArrowBack
+{
+    
+    margin-left: 120%;
+    color:black;
+}
+.OhMyFoodMenu
+{
+    margin-left: 31%;
+}
+/*Suite*/
+.TitrePrincipale
+{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.Coeur
+{
+    margin-right:10%;
+}
+.FrancaisePoster
+{
+    background-image: url("./Images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width:100%;
+}
+
+.BorderMenu
+{
+    background-color: #F6F6F6;
+    width:100%;
+    height: 600px;
+    margin-top:-10%;
+    border-radius :66px;
+}
 @media screen and (max-width:600px)  {
 
     
