@@ -3,7 +3,9 @@ body
     margin:0;
     font-family: 'Roboto', sans-serif;
 }
-
+a:link {
+    text-decoration: none;
+  }
 h1{
     font-family: 'Shrikhand', cursive;
 }
@@ -264,7 +266,7 @@ border-radius:2px;
 
 .Lien
 {
-    text-decoration:none;
+    
     color:white;
 }
 
@@ -348,8 +350,16 @@ cursor: pointer;
 }
 .MenuTexte
 {
+   
+    width:70%;
+    height:79px;
     line-height: 0.4em;
     margin-right: 36%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: justify;
+    margin-left: 18px;
+   
 }
 .Tartare
 {
@@ -358,11 +368,17 @@ cursor: pointer;
 .DescriptionMenu
 {
     font-size: 18px;
+    margin-top: -20px;
 }
 .Price
 {
+    
+    width:25%;
+    height:79px;
     font-size: 20px;
     font-weight:bold;
+    
+    padding-top:100px;
 }
 .TitreMenu
 {
@@ -542,7 +558,7 @@ cursor: pointer;
 
 .LienMenu
 {
-    text-decoration: none;
+    
     color:black;
 }
 
@@ -598,7 +614,104 @@ cursor: pointer;
     
 }
 
+@keyframes slide_right{
+
+}
 .Slide
+{
+    background-color: #99E2D0;
+    width: 59px;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+
+}
+
+/*Pour experimentation à enlever ! Plus pour la version Dekstop*/
+
+
+.TitreMenus
+{
+    flex:1;
+    width:70%;
+    height:79px;
+   
+    margin-bottom: 25px;
+    
+    white-space: nowrap;
+    text-align: justify;
+    margin-left: 18px;
+}
+.TitrePlat
+{
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+font-size: 20px;
+}
+
+.ExemplePrice
+{
+font-weight: 700;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding-left: .5rem;
+padding-top: 40px;
+}
+
+.IconAnimation
+{
+height: 2.6rem;
+width: 2.6rem;
+background-color: #99e2d0;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100px;
+transform: rotate(180deg);
+transition-duration: .5s;
+margin-right: 12px;
+}
+
+.IconColor
+{
+    color: white;
+    font-size: 26px;
+    
+}
+
+.ConfirmationAnimation
+{
+    background-color: #99e2d0;
+margin: -1rem -5rem -1rem 1rem;
+width: 15%;
+display: flex;
+align-items: center;
+justify-content: center;
+transition-duration: .5s;
+height: 95px;
+}
+
+.Menuss
+{
+    display:flex;
+    overflow: hidden;
+}
+
+.Menuss:hover
+.ConfirmationAnimation
+{
+    margin-right:-1rem;
+}
+.Menuss:hover
+.IconAnimation
+{
+    transform: rotate(0);
+}
 @media screen and (max-width:600px)  {
 
     
