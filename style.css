@@ -121,6 +121,12 @@ align-items: center;
       width: 250px;
       cursor:pointer;
   }   
+
+  .Light:hover
+  {
+    background-image:linear-gradient(355deg, #b888f3, #ffa3e5);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+  }
     .textebouton
     {
         color:white;
@@ -246,6 +252,24 @@ top:1rem;
 
 }
  /*Footer*/
+ .FooterList {
+
+    padding: 0;
+    margin-right: 20px;
+    }
+    
+    .FooterFo
+    {
+        margin: 1.3rem 0;
+    }
+    .FooterIcon
+    {
+        margin-right: .5rem;
+    }
+    ul{
+        list-style-type: none;
+        margin-left:-38px;
+    }
  .TexteFooter
  {
      margin-top:0;
@@ -254,20 +278,21 @@ top:1rem;
  {
     background-color:#353535;
     width: auto;
-    height: 230px;
+    height: 255px;
   }
 
   .EcritureFooter
   {
       color:white;
-      line-height: 0.5em;
+      line-height: 0.9em;
   }
  .LogoBlanc
  {
      
      height: 20px;
      margin-top: 5%;
-    margin-bottom: 2%;
+     margin-bottom: 20px;
+     margin-left:-38px;
  }
 .Proposer
 {
@@ -297,8 +322,12 @@ top:1rem;
     position: absolute;
     z-index: 20;
     color: transparent;
-    background-image: linear-gradient(190deg, #9356DC, #FF79DA);
-    background-clip:text;
+    background-image: linear-gradient(190deg, #9356DC, #FF79DA, #fdbceb);
+    background: -webkit-linear-gradient(190 deg,#9356DC, #FF79DA, #fdbceb); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
     opacity:0;
     transition:linear ,1s;
 }
@@ -337,9 +366,13 @@ top:1rem;
 {
     background-color: #F6F6F6;
     width:100%;
-    
+    overflow: hidden;
     margin-top:-10%;
     border-radius :66px;
+}
+.BorderCommander
+{
+    background-color: #F6F6F6;
 }
 .BorderMenuNote
 {
@@ -725,9 +758,16 @@ margin-bottom: 30px;
 }
 }
 
-@media screen and (min-width:1630px)
+@media screen and (min-width:1024px)
 {
-
+    .AllMenus
+    {
+        padding:3em;
+        display:grid;
+        grid-gap:2em;
+        grid-template-columns:repeat(auto-fit ,minmax(700px, 2fr));
+        margin-left: 10%;
+    }
 .LogoBlanc{
     margin-top: 50px;
 }
@@ -771,9 +811,12 @@ margin-left: 4%;
     margin-right: 70px;
 }
 .FactorisationPhoto{
-    width: 600px;
+    width: auto;
 }
-
+.BordureGreyRestos 
+{
+    height: 1000px;
+}
 .BordureMenu {
     width: 600px;
 }
@@ -792,5 +835,13 @@ margin-left: 4%;
 }
   }
  
+}
+@media screen and (min-width:1530px)
+{
+    .Dess
+
+    {
+        margin-left:50px;
+    }
 }
 
